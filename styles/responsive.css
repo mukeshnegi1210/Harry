@@ -1,0 +1,227 @@
+@media(max-width:991px) {
+    header .primary-menu ul li a {
+        font-size: 16px;
+    }
+    .banner {
+        height: 600px;
+    }
+    .banner .banner-content {
+        padding-top: 100px;
+    }
+    .banner .banner-video {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .svg-animation {
+        height: 300px;
+    }
+    .solutions .solution-box,
+    .solutions .solution-img {
+        padding: 30px 0;
+    }
+    .leads h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    .leads p {
+        font-size: 16px;
+    }
+    .leads .lead-content {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:768px) {
+    h2.main-title {
+        font-size: 30px;
+    }
+    h2.title-2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    h2.title-2 {
+        text-align: center;
+    }
+    h2.title-2:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .sub-heading {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    header {
+        z-index: 9999;
+    }
+    .primary-menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        z-index: 999999;
+        background: linear-gradient(45deg, rgba(29, 200, 205), rgb(4, 169, 109) 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms ease-in-out;
+    }
+    .primary-menu.active {
+        left: 0;
+    }
+    .primary-menu ul {
+        padding: 0;
+    }
+    header .primary-menu ul li {
+        padding: 10px 0;
+    }
+    header .primary-menu ul li a {
+        font-size: 20px;
+    }
+    .menu-close,
+    .menu-open {
+        display: inline-block;
+    }
+    header .logo {
+        max-width: 150px;
+        flex: 0 0 150px;
+    }
+    header .header-action {
+        margin-right: 20px;
+    }
+    header .header-action .btn-secondary {
+        min-width: auto;
+        padding: 5px 20px;
+    }
+    .banner .banner-content h1 {
+        font-size: 40px;
+        max-width: none;
+    }
+    .banner {
+        height: 475px;
+    }
+    .banner .banner-video {
+        max-width: 90%;
+    }
+    .svg-animation {
+        height: 200px;
+    }
+    .our-services {
+        padding: 150px 0 30px;
+    }
+    .solutions {
+        padding: 30px 0;
+    }
+    .solutions .solution-box,
+    .solutions .solution-img {
+        padding: 20px 0;
+    }
+    .consumer-categories .consumer-category-box h3 {
+        font-size: 24px;
+    }
+    .advertiserm,
+    .become-affliate,
+    .our-company,
+    .advertiser {
+        padding: 50px 0;
+    }
+    .advertiser .advertiser-inner h2,
+    .become-affliate .become-affliate-content h2,
+    .our-company .our-company-content h2,
+    .advertiser .advertiser-content h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .advertiser .advertiser-inner p,
+    .become-affliate .become-affliate-content p,
+    .advertiser .advertiser-content p,
+    .our-company .our-company-content p {
+        font-size: 16px;
+    }
+    .advertiser .advertiser-inner .btn-secondary,
+    .become-affliate .become-affliate-content .btn-secondary,
+    .advertiser .advertiser-content .btn-secondary,
+    .our-company .our-company-content .btn-secondary {
+        margin-top: 20px;
+    }
+    .portfolios {
+        padding: 40px 0;
+    }
+    .portfolios .tab-list li {
+        padding: 20px 10px;
+        font-size: 16px;
+    }
+    .network .network-box ul {
+        padding: 0 10%;
+    }
+    .network {
+        padding: 40px 0;
+    }
+    .footer-bottom-inner {
+        flex-wrap: wrap;
+    }
+    .footer-bottom-inner .footer-bottom-left,
+    .footer-bottom-inner .footer-bottom-right {
+        flex: 0 0 100%;
+    }
+    .footer-content-box {
+        padding-bottom: 20px;
+    }
+    .main {
+        padding: 30px 0;
+    }
+}
+
+
+/* mobile devices */
+
+@media(max-width:479px) {
+    body {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    h2.main-title {
+        font-size: 25px;
+        line-height: 1.2;
+        padding-bottom: 10px;
+    }
+    header .header-action {
+        margin-right: 10px;
+    }
+    .banner {
+        height: 375px;
+    }
+    .banner .banner-content h1 {
+        font-size: 30px;
+    }
+    .banner .banner-content p {
+        font-size: 16px;
+    }
+    .banner .banner-video {
+        max-width: 100%;
+    }
+    .svg-animation {
+        display: none;
+    }
+    .our-services {
+        padding: 125px 0px 30px;
+    }
+    .solutions .solution-img img {
+        max-width: 50%;
+    }
+    .portfolios .tab-list li {
+        padding: 15px 10px;
+    }
+    .leads h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .leads p {
+        text-align: center;
+    }
+    .banner.banner-second .banner-content h1 {
+        font-size: 30px;
+    }
+}
