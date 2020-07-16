@@ -224,4 +224,13 @@
     .banner.banner-second .banner-content h1 {
         font-size: 30px;
     }
+    .cookies-section .cookies-content {
+        max-width: 90%;
+    }
+    .cookies-content .btn-secondary,
+    .cookies-content .btn {
+        padding: 5px 15px;
+        min-width: auto;
+        max-height: 34px;
+    }
 }
