@@ -252,7 +252,6 @@ header .primary-menu ul li a {
 }
 
 #svg1,
-#svg10,
 #svg2,
 #svg3,
 #svg4,
@@ -260,7 +259,13 @@ header .primary-menu ul li a {
 #svg6,
 #svg7,
 #svg8,
-#svg9 {
+#svg9,
+#svg10,
+#svg11,
+#svg12,
+#svg13,
+#svg14,
+#svg15 {
     position: relative;
     /* top: 0; */
     z-index: -1;
@@ -294,8 +299,7 @@ header .primary-menu ul li a {
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    /* opacity: .5; */
-    max-height: 20px;
+    max-height: 25px;
 }
 
 #svg2 {
@@ -304,7 +308,7 @@ header .primary-menu ul li a {
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    max-height: 20px;
+    max-height: 25px;
     /* opacity: .8; */
 }
 
@@ -325,7 +329,7 @@ header .primary-menu ul li a {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     /* opacity: .6; */
-    max-height: 20px;
+    max-height: 25px;
 }
 
 #svg5 {
@@ -334,58 +338,101 @@ header .primary-menu ul li a {
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    max-height: 20px;
+    max-height: 25px;
     /* opacity: .5; */
 }
 
 #svg6 {
     animation-name: delay1;
-    animation-duration: 6s;
+    animation-duration: 1s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    max-height: 20px;
+    max-height: 25px;
     /* opacity: .4; */
 }
 
 #svg7 {
     animation-name: delay1;
-    animation-duration: 7s;
+    animation-duration: 2s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    max-height: 20px;
+    max-height: 25px;
     opacity: .3;
 }
 
 #svg8 {
     animation-name: delay1;
-    animation-duration: 8s;
+    animation-duration: 3s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    max-height: 20px;
+    max-height: 25px;
     /* opacity: .2; */
 }
 
 #svg9 {
     animation-name: delay1;
-    animation-duration: 9s;
+    animation-duration: 4s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    max-height: 15px;
-    /* opacity: .2; */
+    max-height: 20px;
 }
 
 #svg10 {
     animation-name: delay1;
-    animation-duration: 10s;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    max-height: 20px;
+}
+
+#svg11 {
+    animation-name: delay1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    max-height: 20px;
+}
+
+#svg12 {
+    animation-name: delay1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    max-height: 20px;
+}
+
+#svg13 {
+    animation-name: delay1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    max-height: 20px;
+}
+
+#svg14 {
+    animation-name: delay1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    max-height: 20px;
+}
+
+#svg15 {
+    animation-name: delay1;
+    animation-duration: 5s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     max-height: 15px;
-    /* opacity: 1; */
 }
 
 
