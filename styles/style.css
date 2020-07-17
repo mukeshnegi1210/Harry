@@ -261,12 +261,13 @@ header .primary-menu ul li a {
 #svg7,
 #svg8,
 #svg9 {
-    position: absolute;
-    top: 0;
+    position: relative;
+    /* top: 0; */
     z-index: -1;
     left: -1000px;
     width: -1000px;
-    display: block
+    display: block;
+    /* max-height: 10px; */
 }
 
 @keyframes delay1 {
@@ -293,7 +294,8 @@ header .primary-menu ul li a {
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: .5
+    /* opacity: .5; */
+    max-height: 20px;
 }
 
 #svg2 {
@@ -302,7 +304,8 @@ header .primary-menu ul li a {
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: .8
+    max-height: 20px;
+    /* opacity: .8; */
 }
 
 #svg3 {
@@ -311,7 +314,8 @@ header .primary-menu ul li a {
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: .7
+    /* opacity: .7; */
+    max-height: 25px;
 }
 
 #svg4 {
@@ -320,7 +324,8 @@ header .primary-menu ul li a {
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: .6
+    /* opacity: .6; */
+    max-height: 20px;
 }
 
 #svg5 {
@@ -329,7 +334,8 @@ header .primary-menu ul li a {
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: .5
+    max-height: 20px;
+    /* opacity: .5; */
 }
 
 #svg6 {
@@ -338,7 +344,8 @@ header .primary-menu ul li a {
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: .4
+    max-height: 20px;
+    /* opacity: .4; */
 }
 
 #svg7 {
@@ -347,7 +354,8 @@ header .primary-menu ul li a {
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: .3
+    max-height: 20px;
+    opacity: .3;
 }
 
 #svg8 {
@@ -356,7 +364,8 @@ header .primary-menu ul li a {
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: .2
+    max-height: 20px;
+    /* opacity: .2; */
 }
 
 #svg9 {
@@ -365,7 +374,8 @@ header .primary-menu ul li a {
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: .2
+    max-height: 15px;
+    /* opacity: .2; */
 }
 
 #svg10 {
@@ -374,7 +384,8 @@ header .primary-menu ul li a {
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    opacity: 1
+    max-height: 15px;
+    /* opacity: 1; */
 }
 
 
@@ -944,7 +955,7 @@ footer .footer-contacts ul li span {
     padding: 30px 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 99999999;
-    display: none;
+    display: none !important;
 }
 
 .cookies-section .cookies-content {
